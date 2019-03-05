@@ -20,10 +20,10 @@ quartz.enabled=true
 
 |参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
-|jobName |是  |string |   |
-|jobGroup |是  |string |     |
-|cronExpression     |是  |string |     |
-|jobDescription     |是  |string |  -   |
+|jobName |是  |string |a   |
+|jobGroup |是  |string | a    |
+|cronExpression     |是  |string | a    |
+|jobDescription     |是  |string |  a   |
  **请求示例**
 
 ``` 
