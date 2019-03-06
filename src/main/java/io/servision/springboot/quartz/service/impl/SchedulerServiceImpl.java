@@ -36,7 +36,7 @@ public class SchedulerServiceImpl implements SchedulerService {
 
 			if (exists(jobName, jobGroup)) {
 				log.error("Job已经存在, jobName={},jobGroup={}", jobName, jobGroup);
-				throw new DomainSchedulerException(String.format("Job已经存在, jobName={},jobGroup={}", jobName, jobGroup));
+				throw new DomainSchedulerException(String.format("Job已经存在, jobName=%s,jobGroup=%s", jobName, jobGroup));
 			}
 
 			TriggerKey triggerKey = TriggerKey.triggerKey(jobName, jobGroup);
